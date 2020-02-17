@@ -7,6 +7,7 @@ session_start();
 
 <Html>
 <body>
+
 <H1> Zech Library <?php echo  $_SESSION["username"];?> </h1>
 
 
@@ -31,6 +32,7 @@ session_start();
 <a href="register.php">Register</a>
 <br>
 <a href="login.php"> Login </a>
+<a href="logout.php"> Logout </a>
 
 
 
