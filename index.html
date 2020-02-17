@@ -6,6 +6,17 @@
 
 <!-- The form -->
 <form action="search.php" method ="post">
+
+	 <label for="cars">Choose a car:</label>
+	<select id="cars" name="searchType">
+    <option value="ISBN">ISBN</option>
+    <option value="Title">Title</option>
+    <option value="AuthorLastName">Author Last Name</option>
+    <option value="AuthorFirstName">Author First Name</option>
+  </select>
+
+
+
   <input type="text" placeholder="What are you looking for?" name="search">
   <input type="submit" value="Search" </input>
 </form>
