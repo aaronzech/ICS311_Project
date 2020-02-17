@@ -1,9 +1,13 @@
+
+
+<?php
+session_start();
+?>
+
+
 <Html>
 <body>
-<H1> Zech Library </h1>
-<?php
-echo $_SESSION['username'];
-?>
+<H1> Zech Library <?php echo  $_SESSION["username"];?> </h1>
 
 
 <!-- The form -->
@@ -23,8 +27,10 @@ echo $_SESSION['username'];
   <input type="submit" value="Search" </input>
 </form>
 
-
-<a href="register.php">'register.php'</a>
+<H4> Links </H4>
+<a href="register.php">Register</a>
+<br>
+<a href="login.php"> Login </a>
 
 
 

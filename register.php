@@ -1,5 +1,6 @@
 
 <?php
+	session_start();
 	// Connect to DB
 	$db = mysqli_connect("localhost","zechaaron","123456","ZechLibrary");
 
@@ -7,7 +8,7 @@
 		
 		
 		
-		session_start();
+		
 		
 		$username = mysql_real_escape_string($_POST['username']);
 		$email = mysql_real_escape_string($_POST['email']);
@@ -30,7 +31,8 @@
 			
 			$_SESSION['message'] = "You are now logged in";
 			$_SESSION['username'] = $username;
-			header("location: index.html"); // redirect to home page
+			header("location: index.php"); // redirect to home page4
+			exit();
 		} else {
 			// failed
 			$_SESSION['message'] = "The two passwords do not match";
@@ -45,7 +47,7 @@
 <html>
 
 <body>
-
+<H2> Register</H2>
 
 <form method ="post" action="register.php">
 	<table>
