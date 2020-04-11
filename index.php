@@ -31,8 +31,9 @@ session_start();
 <H4> Links </H4>
 <a href="register.php">Register</a>
 <br>
-<a href="login.php"> Login </a>
-<a href="logout.php"> Logout </a>
+<a href="login.php"> Login </a><br>
+<a href="logout.php"> Logout </a><br>
+<a href="addBook.php"> Add Book </a><br>
 
 
 
