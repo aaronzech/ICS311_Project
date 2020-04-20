@@ -33,7 +33,10 @@ session_start();
 <br>
 <a href="login.php"> Login </a><br>
 <a href="logout.php"> Logout </a><br>
-<a href="addBook.php"> Add Book </a><br>
+<a href="addBook.php"> Add Books </a><br>
+<a href="editBook.php">Delete Books </a><br>
+<a href="EditBookDetails.php"> Edit Books </a><br>
+
 
 
 

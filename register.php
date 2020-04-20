@@ -2,7 +2,7 @@
 <?php
 	session_start();
 	// Connect to DB
-	$db = mysqli_connect("localhost","zechaaron","123456","ZechLibrary");
+	$db = mysqli_connect("localhost","root","","zechLibrary");
 
 	if(isset($_POST['register_btn'])){
 		
