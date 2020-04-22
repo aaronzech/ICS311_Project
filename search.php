@@ -1,4 +1,3 @@
-
 <style>
 table, th, td {
     border: 1px solid black;
@@ -9,7 +8,7 @@ table, th, td {
 
 <?php
 	// Include connection to the DB
-	mysql_connect("localhost","zechaaron","123456") or die("could not connect");
+	mysql_connect("localhost","root","") or die("could not connect");
 	mysql_select_db("zechlibrary") or die ("could not find db");
 	
 
