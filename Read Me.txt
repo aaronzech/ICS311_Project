@@ -1,7 +1,6 @@
 user accounts
 
-John
-123
-
-user2
-123
+ADMIN ACCOUNT
+USERNAME: admin
+PASSWORD: admin
+email: libraryadmin@gmail.com
