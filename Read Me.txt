@@ -4,3 +4,7 @@ ADMIN ACCOUNT
 USERNAME: admin
 PASSWORD: admin
 email: libraryadmin@gmail.com
+
+Non Admin Accounts
+Username: patron1
+password: 123456
