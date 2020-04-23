@@ -1,4 +1,26 @@
+<?php 
 
+// Always start with this
+session_start();
+
+if( isset( $_SESSION['username'] )) {
+	// Grab user date from the database using the username
+	// let them access the "logged in only" pages
+	
+	// Only let the admin in. 
+	if( isset( $_SESSION['admin'] )){
+		echo "Welcome Admin";
+	}else{
+		// Redirect them to the login page
+		header("Location:login.php"); 
+	}
+}
+	
+else{
+	// Redirect them to the login page
+	header("Location:login.php"); 
+}
+?>
 <Html>
 <body>
 

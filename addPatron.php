@@ -197,7 +197,7 @@ if(isset($_POST['submit']))
 
 
 
-<footer>Sp18 CSCI 2050-90 - Aaron, Lydia, Riley</footer>
+<footer>Sp2020 ICS-311 - Aaron</footer>
 </div>
 </body>
 </html>
