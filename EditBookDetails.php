@@ -22,6 +22,7 @@
     <th>Title</th>
     <th>Author_LastName</th>
     <th>Author_FirstName</th>
+	<th>Copies</th>
   </tr>
   <?php
     while($row = mysqli_fetch_array($records))
@@ -34,6 +35,7 @@
         echo "<td><input type = text name =Title   value='".$row['Title']."'</td>";
         echo "<td><input type = text name =Author_LastName  value='".$row['Author_LastName']."'</td>";
         echo "<td><input type = text name =Author_FirstName value='".$row['Author_FirstName']."'</td>";
+		echo "<td><input type = number name =Copies value='".$row['Copies']."'</td>";
         echo "<td><input type = submit>";
         echo "</form></tr>";
     }

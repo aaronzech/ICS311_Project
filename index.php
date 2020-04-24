@@ -148,6 +148,7 @@ h3 { font-size: 2em }
 <!-- Side Menu Bar Content -->
 <div class="sidenav">
 <H4> Menu </H4>
+<a href="catalog.php">Catalog</a><br>
 <a href="register.php">Register</a><br>
 <a href="login.php"> Login </a><br>
 <a href="logout.php"> Logout </a><br>
@@ -155,6 +156,7 @@ h3 { font-size: 2em }
 <a href="editBook.php">Delete Books </a><br>
 <a href="EditBookDetails.php"> Edit Books </a><br>
 <a href="addPatron.php"> Add Patron </a>
+<a href="editPatron.php"> Edit Patron </a>
 </div>
 
 	
